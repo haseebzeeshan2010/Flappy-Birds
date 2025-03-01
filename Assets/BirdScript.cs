@@ -24,6 +24,7 @@ public class BirdScript : MonoBehaviour
 
     }
 
+    // Called when the Collider2D other enters the trigger to end the game
     private void OnCollisionEnter2D(Collision2D collision)
     {
         logic.gameOver();
